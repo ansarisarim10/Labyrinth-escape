@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ansar\source\repos\Labyrinth Escape\out\build\win32-debug\CMakeFiles\6a161b52f39ce138b7998c100e2f5988\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAD55EEB-C02A-3388-A228-972BDA60FA92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

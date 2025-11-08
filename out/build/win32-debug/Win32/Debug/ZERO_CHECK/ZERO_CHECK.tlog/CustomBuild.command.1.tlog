@@ -1,0 +1,10 @@
+^C:\USERS\ANSAR\SOURCE\REPOS\LABYRINTH ESCAPE\OUT\BUILD\WIN32-DEBUG\CMAKEFILES\6A161B52F39CE138B7998C100E2F5988\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/ansar/source/repos/Labyrinth Escape" "-BC:/Users/ansar/source/repos/Labyrinth Escape/out/build/win32-debug" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/ansar/source/repos/Labyrinth Escape/out/build/win32-debug/LabyrinthEscape.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
